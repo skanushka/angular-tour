@@ -1,0 +1,31 @@
+<section class="add-form-section">
+  <div class="header">
+    <h1 class="app-header">Add new Media Item</h1>
+  </div>
+
+  <form class="add-form" #mediaItemForm="ngForm"
+        (ngSubmit)="onSubmit(mediaItemForm.value)">
+
+    <mat-form-field appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput type="text" name="name" id="name" ngModel>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Producer</mat-label>
+      <input matInput type="text" name="producer" id="producer" ngModel>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Watched On</mat-label>
+      <input matInput type="date" name="watchedOn" id="watchedOn" ngModel>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Description</mat-label>
+      <input matInput type="text" name="description" id="description" ngModel>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary">Save</button>
+  </form>
+</section>

@@ -1,0 +1,11 @@
+.example-card {
+  max-width: 400px;
+  margin: 10px;
+}
+
+.is-favourite{
+  background-color: brown;
+}
+.is-favourite:hover{
+  background-color: green;
+}

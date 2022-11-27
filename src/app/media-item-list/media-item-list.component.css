@@ -1,0 +1,13 @@
+.media-items {
+  display: flex;
+}
+
+.header{
+  text-align: center;
+}
+
+.producers{
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}

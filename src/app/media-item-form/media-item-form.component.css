@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.add-form-section{
+  display: inline-block;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.add-form{
+  display: grid;
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 100%;
+}
+
+.header{
+  text-align: center;
+  display: inline;
+}
+
+.app-header{
+  color: green;
+}

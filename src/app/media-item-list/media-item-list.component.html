@@ -1,0 +1,12 @@
+<div class="header">
+  <p class="producers">{{mediaItems | categoryList}}</p>
+</div>
+<section class="media-items">
+  <app-media-item *ngFor="let mediaItem of mediaItems"
+                  (delete)="onMediaItemDelete($event)"
+                  [mediaItem]="mediaItem">
+  </app-media-item>
+</section>
+<section>
+  <app-media-item-form></app-media-item-form>
+</section>
