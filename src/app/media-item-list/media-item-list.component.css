@@ -1,5 +1,5 @@
 .media-items {
-  display: flex;
+  display: -webkit-inline-flex;
 }
 
 .header{
